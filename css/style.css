@@ -89,6 +89,9 @@
 
     }
     .section__header_link{
+        display: flexbox;
+
+        width: 80px;
         color:rgba(82, 163, 0, 0.897);
         border-bottom: rgba(82, 163, 0, 0.897) 2px solid;
         
@@ -96,4 +99,6 @@
     
     .section__box{
         background-color: white;
+        border-radius: 5px;
+        box-shadow: black;
     }
